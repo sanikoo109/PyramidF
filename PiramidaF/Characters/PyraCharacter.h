@@ -32,4 +32,7 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Pyra Character")
 		bool UserChanges3;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Pyra Character")
+		bool UserChanges5;
+
 };
