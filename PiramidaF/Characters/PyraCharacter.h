@@ -26,13 +26,4 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Pyra Character")
-		bool UserChanges1;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Pyra Character")
-		bool UserChanges3;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Pyra Character")
-		bool UserChanges5;
-
 };
