@@ -16,6 +16,7 @@ class PIRAMIDAF_API APyraGameMode : public AGameModeBase
 
 public:
 
-
+	UPROPERTY()
+	float Value;
 	
 };
